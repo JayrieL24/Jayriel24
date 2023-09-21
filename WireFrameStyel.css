@@ -2,27 +2,39 @@
     margin: 0;
     padding: 0;
     background-color: wheat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .mainleftbox{
  position: absolute;
- height: 750px;
+ height: 880px;
  width: 275px;
  border: 6px solid;
  background-color: white;
 }
+
 .tableBox{
  position: absolute;
- height: 330px;
+ height: 450px;
  width: 250px;
  border: 4px solid black;
  background-color: white;
  left: 15px;
- top: 60px;
+ top: 70px;
 }
+.table{
+    position: absolute;
+   width: 249px;
+   height: 440px;
+}
+
 .Transac{
+    position: absolute;
+    font-size: 25px;
     background-color: white;
     opacity: 0.6;
+    text-align: center;
+    left: 65px;
 }
 
 .balanceBox{
@@ -32,12 +44,13 @@
  border: 4px solid black;
  background-color: lightgray;
  left: 15px;
- top: 460px;
+ top: 580px;
 }
+
 .balance{
     position: absolute;
     background-color: white;
-    top: 400px;
+    top: 530px;
     left: 85px;
     opacity: 0.6;
 }
@@ -47,41 +60,376 @@
     width: 225px;
     height: 65px;
     border: 4px solid black;
-    top: 470px;
+    top: 610px;
     left: 28px;
     background-color: white;
 }
+
 .currentbal{
     position: absolute;
     background-color: white;
-    top: 10px;
+    top: 12px;
     left: 28px;
 }
+
  .deposit{
     position: absolute;
     width: 235px;
     height: 65px;
     border: 4px solid black;
     background-color: white;
-    top: 565px;
+    top: 700px;
     left: 28px;
     font-size: 35px;
+    font-weight: bold;
  }
+
  .deposit:hover{
     opacity: 0.6;
-
  }
+
  .withdraw{
     position: absolute;
     width: 235px;
     height: 65px;
     border: 4px solid black;
     background-color: white;
-    top: 655px;
+    top: 780px;
     left: 28px;
     font-size: 35px;
+    font-weight: bold;
  }
+
 .withdraw:hover{
     opacity: 0.6;
-    
+}
+
+.Blue{
+    position: absolute;
+    width: 230px;
+    height: 275px;
+    background-color: blue; 
+    border-radius: 12px;
+    left: 580px;
+    top: 30px;
+}
+
+.totalexpenses{
+ position: absolute;
+  background-color: blue;
+  color: white;
+  font-size: 21px;
+  left: 9px;
+  top: 35px;
+}
+
+.whiteblue{
+    position: absolute;
+    background-color: white;
+    width: 210px;
+    height: 4px;
+    top: 90px;
+    left: 585px;
+}
+
+.Expenses{
+  position: absolute;
+  background-color: blue;
+  color: white;
+  top: 76px;
+  right: 20px;
+  font-size: 32px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Gray{
+    position: absolute;
+    width: 230px;
+    height: 275px;
+    background-color: gray;
+    left: 340px;
+    top: 30px;
+    border-radius: 12px;
+}
+
+.totalsalary{
+    position: absolute;
+    background-color: transparent;
+    font-size: 21px;
+    top: 36px;
+    left: 7px;
+    color: white;
+}
+ 
+.Salary{
+ position: absolute;
+ background-color: transparent;
+ color: white;
+ bottom: 160px;
+ left: 6px;
+ font-size: 31px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.whitegray{
+    position: absolute;
+    background-color: white;
+    width: 210px;
+    height: 4px;
+    top: 90px;
+    left: 345px;  
+}
+
+.bankacc1{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    top: 155px;
+    left: 63px;
+    font-size: 23px;
+}
+
+.bankacc2{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    top: 155px;
+    left: 63px;
+    font-size: 23px;
+}
+
+.banknum1{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    top: 200px;
+    left: 70px;
+    font-size: 18px;    
+}
+
+.bar{
+ position: absolute;
+ background-color: white;
+ width: 165px;
+ height: 2px;
+ top: 185px;
+ left: 50px;
+}
+
+.bankimg1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 195px;
+    left: 9px;
+}
+
+.bankimg2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    right: 155px;
+}
+
+.banknum2{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    top: 200px;
+    left: 72px;
+    font-size: 18px;    
+}
+
+.bankpin1{
+   position: absolute;
+   background-color: blue;
+   color: white;
+   top: 225px;
+   left: 72px;
+}
+
+.bankpin2{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    top: 225px;
+    left: 72px;
+
+}
+
+.darkblue{
+    position: absolute;
+    background-color: darkblue;
+    height: 220px;
+    width: 475px;
+    left:  335px;
+    top: 330px;
+    border-radius: 20px;
+}
+
+.button1{
+  position: absolute;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  left: 728px;
+  top: 345px;
+}
+
+.button2{
+    position: absolute;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    left: 750px;
+    top: 345px;
+}
+
+.button3{
+    position: absolute;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    left: 773px;
+    top: 345px;
+}
+
+.Name{
+    position: absolute;
+    background-color: darkblue;
+    top: 60px;
+    left: 36px;
+    color: white;
+    font-size: 36px;
+}
+
+ .bankpins{
+  position: absolute;
+  color: white;
+  background-color: darkblue;
+  bottom: 70px;
+  left: 36px;
+  font-size: 25px;
+ }
+
+ .master{
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    background-color: transparent;
+    top: 140px;
+    left: 365px;
+ }
+ .union{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    background-color: transparent;
+    top: 140px;
+    left: 110px;
+ }
+
+ .paypal{
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    background-color: transparent;
+    top: 155px;
+    left: 260px;
+ }
+
+ .bargraph{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    top:  600px;
+    left: 320px;
+    background-color: transparent;
+ }
+
+ .User{
+    position: absolute;
+    border: 5px solid black;
+    background-color: white;
+    width: 645px;
+    height: 120px;
+    left: 850px;
+    top: 760px;
+ }
+
+ .name{
+    position: absolute;
+    background-color: transparent;
+    top: 10px;
+    left: 20px;
+    font-size: 35px;
+ }
+
+.profession{
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    left: 30px;
+    font-size: 25px;
+}
+
+.date{
+    position: absolute;
+    background-color: transparent;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.time{
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.annualtransac{
+    position: absolute;
+    width: 650px;
+    height: 550px;
+    left: 840px;
+    top: 55px;
+    border: 6px solid black;
+    background-color: white;
+}
+.annualtable{
+    position: absolute;
+    width: 630px;
+    height: 530px;
+    height: inherit;
+    width: inherit;
+}
+
+.Annual{
+    position: absolute;
+    font-size: 50px;
+    background-color: transparent;
+    top: 5px;
+    left: 960px;
+}
+
+.updatetransac{
+    position: absolute;
+    height: 70px;
+    width: 300px;
+    left: 1030px;
+    top: 640px;
+    border: 4px solid black;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.updatetransac:hover{
+    opacity: 0.5;
 }
