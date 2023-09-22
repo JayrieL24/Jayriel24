@@ -3,36 +3,109 @@
     padding: 0;
     background-color: skyblue;
 }
-
-.Introduction{
-    position: absolute;
-    background-color: darkblue;
-    bottom: 1px;
-    width: 30000px;
-    height: 150px;
-}
-.aboutme{
-    position: absolute;
-    background-color: transparent;
-    color: white;
-    font-size: 30px;
-    bottom: 100px;
-    left: 250px;
-}
-.Student{
-     position: absolute;
-    background-color: transparent;
-    color: white;
-    font-size: 30px;
-    bottom: 70px;
-    left: 250px;
+@font-face {
+    font-family: Mooli;
+    src: url(https://fonts.google.com/specimen/Mooli);
 }
 
-.Icon{
+.koi{
     position: absolute;
     border-radius: 100%;
-    width: 150px;
-    height: 240px;
-    bottom: 10px;
-    left: 20px;
+    width: 300x;
+    height: 310px;
+    left: 760px;
+    border: 5px solid rgb(48, 2, 2);
+}
+
+.banner{
+    position: absolute;
+    width: 300px;
+    height: 1300px;
+    background-color: darkblue;
+}
+
+.ban1{
+    position: absolute;
+    font-size: 40px;
+    background-color: transparent;
+    color: white;
+    top: 87px;
+    text-align: center;
+    font-family: Mooli;
+}
+
+.ban2{
+    position: absolute;
+    font-size: 40px;
+    background-color: transparent;
+    color: white;
+    top: 153px;
+    text-align: center;
+    font-family: Mooli;
+}
+
+.ban3{
+    position: absolute;
+    font-size: 40px;
+    background-color: transparent;
+    color: white;
+    top: 220px;
+    text-align: center;
+    font-family: Mooli;
+}
+
+.activities{
+    position: absolute;
+    background-color: rgba(40, 40, 122, 0.519);
+    width: 1000px;
+    height: 300px;
+    top: 500px;
+    left: 450px;
+}
+
+.Act1{
+    position: absolute;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    top: 50px;
+    left: 35px;
+}
+
+.Act2{
+    position: absolute;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    top: 50px;
+    left: 370px;
+
+}
+
+.Act3{
+    position: absolute;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    top: 50px;
+    right: 90px;
+}
+
+.Act4{
+    position: absolute;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    bottom: 20px;
+    right: 50px;
+}
+
+.Act5{
+    position: absolute;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+    bottom: 20px;
+    left: 50px;
+
 }
