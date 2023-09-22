@@ -13,13 +13,22 @@
     border-radius: 100%;
     width: 300x;
     height: 310px;
-    left: 760px;
-    border: 5px solid rgb(48, 2, 2);
+    left: 745px;
+    border: 10px solid rgb(48, 2, 2);
+}
+
+.J{
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    text-align: justify;
+    left: 740px;
+    top: 350px;
 }
 
 .banner{
     position: absolute;
-    width: 300px;
+    width: 271px;
     height: 1300px;
     background-color: darkblue;
 }
@@ -29,7 +38,8 @@
     font-size: 40px;
     background-color: transparent;
     color: white;
-    top: 87px;
+    top: 240px;
+    left: 20px;
     text-align: center;
     font-family: Mooli;
 }
@@ -39,7 +49,8 @@
     font-size: 40px;
     background-color: transparent;
     color: white;
-    top: 153px;
+    top: 295px;
+    left: 17px;
     text-align: center;
     font-family: Mooli;
 }
@@ -49,7 +60,8 @@
     font-size: 40px;
     background-color: transparent;
     color: white;
-    top: 220px;
+    top: 360px;
+    left: 20px;
     text-align: center;
     font-family: Mooli;
 }
@@ -58,25 +70,27 @@
     position: absolute;
     background-color: rgba(40, 40, 122, 0.519);
     width: 1000px;
-    height: 300px;
+    height: 320px;
     top: 500px;
     left: 450px;
 }
 
 .Act1{
     position: absolute;
-    background-color: transparent;
-    font-size: 40px;
+    background-color: rgb(8, 8, 61);
+    font-size: 45px;
     color: white;
     top: 50px;
     left: 35px;
+    border: 5px solid white;
 }
 
 .Act2{
     position: absolute;
-    background-color: transparent;
-    font-size: 40px;
+    background-color: rgb(8, 8, 61);
+    font-size: 45px;
     color: white;
+    border: 5px solid white;
     top: 50px;
     left: 370px;
 
@@ -84,28 +98,114 @@
 
 .Act3{
     position: absolute;
-    background-color: transparent;
-    font-size: 40px;
+    background-color: rgb(8, 8, 61);
+    font-size: 45px;
     color: white;
+    border: 5px solid white;
     top: 50px;
     right: 90px;
 }
 
 .Act4{
     position: absolute;
-    background-color: transparent;
-    font-size: 40px;
+    background-color: rgb(8, 8, 61);
+    font-size: 45px;
     color: white;
+    border: 5px solid white;
     bottom: 20px;
     right: 50px;
 }
 
 .Act5{
     position: absolute;
-    background-color: transparent;
-    font-size: 40px;
+    background-color: rgb(8, 8, 61);
+    font-size: 45px;
     color: white;
+    border: 5px solid white;
     bottom: 20px;
-    left: 50px;
+    left: 30px;
 
+}
+
+.aboutme{
+    position: absolute;
+    width: 1115px;
+    height: 400px;
+    background-color: rgb(191, 216, 254);
+    top: 870px;
+    left: 400px;
+}
+
+.me{
+    position: absolute;
+    color: rgb(39, 49, 58);
+    font-size: 45px;
+    background-color: transparent;
+    left: 30px;
+    top: 10px;
+    
+}
+
+.jisi{
+    position: absolute;
+    width: 225px;
+    height: 230px;
+    border-radius: 100%;
+    top: 70px;
+    left: 20px;
+    border: 4px solid darkred;
+}
+
+.backgroundme{
+   position: absolute;
+   background-color: transparent;
+   color: rgb(39, 49, 58);
+   font-size: 30px;
+   left: 290px;
+   top: 72px;
+}
+
+.story{
+    position: absolute;
+    background-color: transparent;
+    color: rgb(39, 49, 58);
+    font-weight: normal;
+    font-size: 25px;
+    left: 320px;
+    top: 150px;
+}
+.Links{
+    position: absolute;
+    background-color: transparent;
+    color: rgb(39, 49, 58);
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 1px;
+    left: 100px;
+}
+
+.Links1{
+    position: absolute;
+    background-color: transparent;
+    color: rgb(39, 49, 58);
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 1px;
+    left: 200px;
+}
+.Social{
+    background-color: transparent;
+    position: absolute;
+    color: rgb(39, 49, 58);
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 35px;
+    left: 120px;
+}
+
+.proof{
+    position: absolute;
+    width: 70px;
+    height: 90px;
+    bottom: 2px;
 }
