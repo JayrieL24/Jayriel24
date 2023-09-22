@@ -4,3 +4,27 @@
     background-color: skyblue;
 }
 
+.Introduction{
+    position: absolute;
+    background-color: skyblue;
+    bottom: 1px;
+    width: 30000px;
+    height: 150px;
+}
+.aboutme{
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    bottom: 100px;
+    left: 250px;
+}
+
+.Icon{
+    position: absolute;
+    border-radius: 100%;
+    width: 250px;
+    height: 190px;
+    bottom: 10px;
+    left: 20px;
+}
