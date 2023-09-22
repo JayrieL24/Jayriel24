@@ -19,6 +19,14 @@
     bottom: 100px;
     left: 250px;
 }
+.Student{
+     position: absolute;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    bottom: 70px;
+    left: 250px;
+}
 
 .Icon{
     position: absolute;
